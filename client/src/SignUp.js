@@ -9,7 +9,7 @@ class SignUp extends React.Component {
     return (
       <div className='body'>
         <Row className='sign-up-title'>
-        Sign Up
+        Sign Up 
         </Row>
 
         <img src={addPhoto} width="105"/>
@@ -18,7 +18,7 @@ class SignUp extends React.Component {
         <Label for='firstname' className='label-style'>
             First Name
             </Label>
-          <Input id='firstname' className='input'>
+          <Input id='firstname' className='input' placeholder="type here">
           </Input>
         </Row>
 
@@ -26,7 +26,7 @@ class SignUp extends React.Component {
         <Label for='lastname' className='label-style'>
             Last Name
             </Label>
-          <Input id='lastname'className='input'>
+          <Input id='lastname'className='input'placeholder="type here">
           </Input>
         </Row>
 
@@ -34,7 +34,7 @@ class SignUp extends React.Component {
         <Label for='email' className='label-style'>
             RIT Email
             </Label>
-          <Input id='email'className='input'>
+          <Input id='email'className='input'placeholder="type here">
           </Input>
         </Row>
 
@@ -42,7 +42,7 @@ class SignUp extends React.Component {
         <Label for='password' className='label-style'>
             Password
             </Label>
-          <Input id='password'className='input'>
+          <Input id='password'className='input'placeholder="type here">
           </Input>
         </Row>
       </div>
