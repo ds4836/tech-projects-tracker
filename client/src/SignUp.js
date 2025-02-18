@@ -2,6 +2,7 @@ import React from 'react';
 import {Row, Input, Label, Button} from 'reactstrap';
 import "./App.css";
 import addPhoto from "./addphoto.png";
+import BackButton from './BackButton';
 
 class SignUp extends React.Component {
 
@@ -12,7 +13,7 @@ class SignUp extends React.Component {
         Sign Up 
         </Row>
 
-        <img src={addPhoto} width="105"/>
+        <img src={addPhoto} width="105" className="addphoto-styling"/>
 
         <Row>
         <Label for='firstname' className='label-style'>

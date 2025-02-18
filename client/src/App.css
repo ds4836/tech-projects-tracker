@@ -12,6 +12,7 @@
   line-height: 77.45px;
   letter-spacing: 0%;
   text-align: center;
+  padding-top: 30px;
 }
 
 .label-style{
@@ -23,4 +24,10 @@
 .input{
   margin: 5px;
   width: 300px;
+  font-size: 15px;
+  padding-inline: 8px;
+}
+
+.addphoto-styling{
+  margin-bottom: 10px;
 }
